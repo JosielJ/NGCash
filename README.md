@@ -42,16 +42,28 @@ Diagrama do banco de dados
 ## Ferramentas utilizadas
 
 <div>
-  <h3>FrontEnd</h3>
 
-<p>O FrontEnd é feito em React.js com TypeScript, 
-O FrontEnd conta com bibliotecas React como: <br> 
+  <h3>FrontEnd</h3>
+<p>O FrontEnd é feito em React.js com TypeScript. <br>
+O FrontEnd conta com bibliotecas e frameworks React como: <br> 
 - React routerdom para possibilitar a utilização de rotas no FrontEnd. <br>
 - Axios para fazer a comunicação com a API no BackEnd. <br>
 - React Hook Form para gerenciar formulários. <br>
 - Yup para fazer a validação dos formulários. <br>
 - Framer-motion para fazer animações. <br>
 - React Three.js, React Three/drei e React Three/fiber para renderizar elementos 3d. <br>
+</p>
+<br>
+
+  <h3>BackEnd</h3>
+<p>O BackEnd é feito em Node.js com TypeScript. <br>
+O BackEnd conta com bibliotecas e frameworks Node como: <br> 
+- Prisma como ORM para mapear o banco de dados. <br>
+- Express para gerencias o servidor e rotas. <br>
+- Express async errors para lidar com erros assincronos. <br>
+- Cors para gerenciar e permitir requisiçoes do FrontEnd para o BackEnd. <br>
+- Bcryptjs para encriptar dados ao enviar para o servidor. <br>
+- Jsonwebtoken gerenciar tokens e veriricar a requisiçoes vindas do FrontEnd. <br>
 </p>
 
 <div/>
