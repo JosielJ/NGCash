@@ -9,7 +9,7 @@
 
 - [Ferramentas utilizadas.](#ferramentas-utilizadas)
 
-- [Acesso ao projeto.](#acesso-ao-projeto)
+- [Como executar.](#como-executar)
 
 ## Descrição do projeto
 
@@ -80,6 +80,11 @@ Conta com bibliotecas e frameworks Node como: <br>
 
 ###
 
-## Acesso ao projeto
+## Como executar
 
-Você pode [ver o código-fonte do projeto](https://github.com/JosielJ/Treino-React-Three.js) ou [acessar o projeto](https://treino-react-three-js.vercel.app/).
+<p>Para executar o aplicativo você precisa ter instalado em sua máquina o Docker Desktop</p>
+
+```bash
+Criar o containers no Docker
+  $ docker-compose up --build -d 
+```
