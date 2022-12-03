@@ -1,0 +1,312 @@
+.home-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background: url('../components/assets/bk.jpg');
+    background-size: cover;
+
+    .home-logo{
+        width: 600px;
+        height: 100vh;
+
+        padding-right: 300px;
+    }
+    .home-grid{
+        width: 400px;
+        height: 450px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        border-radius: 5px;
+        background-color: #ffffff;
+
+        .invalid{
+            max-width: 300px;
+
+            margin-top: -10px;
+            margin-bottom: 10px;
+        
+            padding: 2px;
+        
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 14px;
+            color: #ff3c3c;
+            
+            border-radius: 5px;
+        }
+
+        .home-grid-header{
+            font-family: Inter;
+            font-weight: 900;
+            font-size: 25px;
+
+            margin: 30px;
+            //background-color: aqua;
+        }
+    .home-grid-fiel-input{
+        .home-grid-fiel-input-username{
+            width: 300px;
+            height: 50px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 5px;
+            background-color: #ededed;
+            input{
+                width: 270px;
+                height: 20px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                margin-left: 20px;
+                margin-right: 20px;
+
+                background-color: transparent;
+                border: none;
+                outline: none;
+
+                font-family: Inter;
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+        .home-grid-fiel-input-password{
+            width: 300px;
+            height: 50px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 20px;
+
+            border-radius: 5px;
+            background-color: #ededed;
+            input{
+                width: 270px;
+                height: 20px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                margin-left: 20px;
+                margin-right: 20px;
+
+                background-color: transparent;
+                border: none;
+                outline: none;
+
+                font-family: Inter;
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+    }
+    .home-grid-button{
+        margin-top: 20px;
+
+        :hover{
+            cursor: pointer;
+        }
+        button{
+            width: 300px;
+            height: 50px;
+
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 15px;
+            color: #000;
+
+            border-radius: 5px;
+            border: none;
+            background-color: #01ca30;
+        }
+    }
+    .home-grid-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 25px;
+        
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 12px;
+        color: #000;
+        h4{
+            margin-top: 5px;
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .home-container{
+        display: flex;
+        align-items: center;
+        .home-logo{
+            width: 400px;
+            padding-right: 0px;
+           //background-color: #7d2cff;
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .home-logo{
+            height: 300px;
+            width: 300px;
+            padding-right: 0px;
+            //background-color: #7d2cff;
+            scale: 1.2;
+            transform: translatex(-30px);
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .home-logo{
+            visibility: hidden;
+            height: 0px;
+            width: 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .home-grid{
+            width: 300px;
+            .home-grid-fiel-input{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .home-grid-fiel-input-username{
+                    width: 240px;
+                    height: 50px;
+        
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+        
+                    border-radius: 5px;
+                    background-color: #ededed;
+                    input{
+                        width: 200px;
+                        height: 20px;
+        
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+        
+                        margin-left: 20px;
+                        margin-right: 20px;
+        
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+        
+                        font-family: Inter;
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                }
+                .home-grid-fiel-input-password{
+                    width: 240px;
+                    height: 50px;
+        
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+        
+                    margin-top: 20px;
+        
+                    border-radius: 5px;
+                    background-color: #ededed;
+                    input{
+                        width: 200px;
+                        height: 20px;
+        
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+        
+                        margin-left: 20px;
+                        margin-right: 20px;
+        
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+        
+                        font-family: Inter;
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .home-grid-button{
+                margin-top: 20px;
+        
+                :hover{
+                    cursor: pointer;
+                }
+                button{
+                    width: 240px;
+                    height: 50px;
+        
+                    font-family: Inter;
+                    font-weight: 600;
+                    font-size: 15px;
+                    color: #000;
+        
+                    border-radius: 5px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

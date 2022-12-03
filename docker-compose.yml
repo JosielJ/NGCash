@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+
+  db:
+    image: postgres:alpine
+    container_name: db-docker
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=ngc
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=ngcdb
+    ports:
+      - "5432:5432"
+    expose:
+      - "5432"
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+      
+  beapi:
+    image: node:16
+    container_name: ngbeapi-docker
+    build: ./be
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  feapp:
+    image: node:alpine
+    container_name: ngfeapp-docker
+    build: ./fe
+    ports:
+      - "80:3000"
+    depends_on:
+      - beapi
+
+volumes:
+  pg-data:

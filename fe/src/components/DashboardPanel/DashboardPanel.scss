@@ -1,0 +1,248 @@
+.dashboardpanel-container{
+    width: 100vw;
+    height: 100vh;
+
+    padding: 40px;
+    .dashboardpanel-grid-top{
+        max-width: 100%;
+
+        display: flex;
+
+        padding: 40px;
+        margin-bottom: 40px;
+    
+        border-radius: 5px;
+
+        background-color: #ffffff;
+        .dashboardpanel-grid-balance{
+            width: 340px;
+            height: 190px;
+
+            padding: 0px;
+
+            border-radius: 5px;
+
+            background-color: #000000;
+
+            .dashboardpanel-grid-balance-data{
+                position:relative ;
+                position:absolute; 
+                top:110px; 
+                left:110px; 
+                h3{
+                    font-family: Inter;
+                    font-weight: 600;
+                    font-size: 25px;
+                    color: #ffffff;
+    
+                    margin-bottom: 20px;
+                }
+    
+                h2{
+                    font-family: Inter;
+                    font-weight: 600;
+                    font-size: 30px;
+                    color: #ffffff;
+                    margin-bottom: 20px;
+                }
+            }
+
+        }
+        .dashboardpanel-grid-user{
+            max-width: 100%;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: row;
+
+            .dashboardpanel-grid-user-data{
+                max-width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                //align-items: center;
+
+                font-family: Inter;
+                font-weight: 600;
+                color: #000000;
+                //background-color: aqua;
+                h2{
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                }
+                h3{
+                    font-size: 17px;
+                    margin-bottom: 5px;
+                }
+            }
+            .dashboardpanel-grid-user-logout{
+                height: 100%;
+
+                display: flex;
+
+                flex-direction: row;
+
+                align-items:flex-end;
+                justify-content: end;
+
+                //background-color: brown;
+
+                :hover{
+                    cursor: pointer;
+                }
+                button{
+                    max-width: 50px;
+                    height: 25px;
+
+                    font-family: Inter;
+                    font-weight: 600;
+                    font-size: 15px;
+                    color: #ffffff;
+
+                    border-radius: 3px;
+                    border: none;
+                    background-color: #000000;
+                }
+            }
+        }
+    }
+    .dashboardpanel-grid-mid{
+        max-width: 100%;
+
+        display: flex;
+
+        padding: 40px;
+    
+        border-radius: 5px;
+
+        background-color: #ffffff;
+
+        h2{
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 25px;
+        }
+
+        svg{
+            font-size: 20px;
+            margin-right: 20px;
+            transform: translateY(2px);
+            :hover{
+                cursor: pointer;
+            }
+        }
+
+        .dashboardpanel-grid-mid-selected{
+            color: #550bcc;
+        }
+    }
+
+}
+
+@media screen and (max-width: 646px) {
+    .dashboardpanel-container{
+        .dashboardpanel-grid-top{
+            display: flex;
+            flex-direction: column;
+            .dashboardpanel-grid-balance{
+                width: 100%;
+                max-width: 400px;
+            }
+            .dashboardpanel-grid-user{
+                max-width: 100%;
+                display: flex;
+                margin-left: 0px;
+                margin-top: 10px;
+                flex-direction: column;
+                .dashboardpanel-grid-user-data{
+                    max-width: 100%;
+
+                    display: flex;
+                }
+            }
+        }
+        .dashboardpanel-grid-mid{
+            overflow-x: scroll;
+            h2{
+                font-family: Inter;
+                font-weight: 600;
+                font-size: 21px;
+            }
+    
+            svg{
+                font-size: 12px;
+                margin-right: 10px;
+                transform: translateY(1px);
+                :hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    .dashboardpanel-container{
+        .dashboardpanel-grid-top{
+            display: flex;
+            flex-direction: column;
+            .dashboardpanel-grid-balance{
+                width: 100%;
+                max-width: 400px;
+            }
+            .dashboardpanel-grid-user{
+                max-width: 100%;
+                display: flex;
+                margin-left: 0px;
+                margin-top: 10px;
+                flex-direction: column;
+                .dashboardpanel-grid-user-data{
+                    max-width: 100%;
+
+                    display: flex;
+                }
+            }
+        }
+        .dashboardpanel-grid-mid{
+            overflow-x: scroll;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-family: Inter;
+                font-weight: 600;
+                font-size: 20px;
+            }
+    
+            svg{
+                font-size: 15px;
+                transform: translateY(2px);
+                :hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #a3a3a3 #ffffff;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #a3a3a3;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}

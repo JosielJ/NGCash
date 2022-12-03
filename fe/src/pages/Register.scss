@@ -1,0 +1,342 @@
+.register-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background: url('../components/assets/bk.jpg');
+    background-size: cover;
+
+    .register-logo{
+        width: 600px;
+        height: 100vh;
+
+        padding-right: 300px;
+    }
+    .register-grid{
+        width: 400px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        border-radius: 5px;
+        background-color: #ffffff;
+
+        .invalid{
+            max-width: 300px;
+
+            margin-top: -10px;
+            margin-bottom: 10px;
+        
+            padding: 2px;
+        
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 14px;
+            color: #ff3c3c;
+            
+            border-radius: 5px;
+        }
+
+        .register-grid-header{
+            font-family: Inter;
+            font-weight: 900;
+            font-size: 25px;
+
+            margin: 30px;
+            //background-color: aqua;
+        }
+    .register-grid-fiel-input{
+
+        .register-sucess{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #01ca30;
+            margin-top: 5px;
+            font-family: Inter;
+            font-size: 13px;
+        }
+        .register-grid-fiel-input-username{
+            width: 300px;
+            height: 50px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 5px;
+            background-color: #ededed;
+            input{
+                width: 270px;
+                height: 20px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                margin-left: 20px;
+                margin-right: 20px;
+
+                background-color: transparent;
+                border: none;
+                outline: none;
+
+                font-family: Inter;
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+        .register-grid-fiel-input-password{
+            width: 300px;
+            height: 50px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 20px;
+
+            border-radius: 5px;
+            background-color: #ededed;
+            input{
+                width: 270px;
+                height: 20px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                margin-left: 20px;
+                margin-right: 20px;
+
+                background-color: transparent;
+                border: none;
+                outline: none;
+
+                font-family: Inter;
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+    }
+    .register-grid-button{
+        margin-top: 20px;
+
+        :hover{
+            cursor: pointer;
+        }
+        button{
+            width: 300px;
+            height: 50px;
+
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 15px;
+            color: #000;
+
+            border-radius: 5px;
+            border: none;
+            background-color: #7d2cff;
+        }
+    }
+    .register-grid-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 25px;
+        margin-bottom: 30px;
+        
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 12px;
+        color: #000;
+        h4{
+            margin-top: 5px;
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .register-container{
+        display: flex;
+        align-items: center;
+        .register-logo{
+            width: 400px;
+            padding-right: 0px;
+           //background-color: #7d2cff;
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .register-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .register-logo{
+            height: 300px;
+            width: 300px;
+            padding-right: 0px;
+            //background-color: #7d2cff;
+            scale: 1.2;
+            transform: translatex(-30px);
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .register-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .register-logo{
+            visibility: hidden;
+            height: 0px;
+            width: 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .register-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .register-grid{
+            width: 300px;
+            .register-grid-fiel-input{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .register-grid-fiel-input-username{
+                    width: 240px;
+                    height: 50px;
+        
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+        
+                    border-radius: 5px;
+                    background-color: #ededed;
+                    input{
+                        width: 200px;
+                        height: 20px;
+        
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+        
+                        margin-left: 20px;
+                        margin-right: 20px;
+        
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+        
+                        font-family: Inter;
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                }
+                .register-grid-fiel-input-password{
+                    width: 240px;
+                    height: 50px;
+        
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+        
+                    margin-top: 20px;
+        
+                    border-radius: 5px;
+                    background-color: #ededed;
+                    input{
+                        width: 200px;
+                        height: 20px;
+        
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+        
+                        margin-left: 20px;
+                        margin-right: 20px;
+        
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+        
+                        font-family: Inter;
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .register-grid-button{
+                margin-top: 20px;
+        
+                :hover{
+                    cursor: pointer;
+                }
+                button{
+                    width: 240px;
+                    height: 50px;
+        
+                    font-family: Inter;
+                    font-weight: 600;
+                    font-size: 15px;
+                    color: #000;
+        
+                    border-radius: 5px;
+                    border: none;
+                    background-color: #7d2cff;
+                }
+            }
+        }
+    }
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #a3a3a3 #ffffff;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #a3a3a3;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}

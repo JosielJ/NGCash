@@ -1,0 +1,59 @@
+.historyin-container{
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+
+    .loading{
+        margin-top: 10px;
+    }
+
+    .historyin-order{
+
+
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        .historyin-order-ord{
+
+            margin-left: 10px;
+            h3{
+                font-family: Inter;
+                font-size: 15px;
+                margin-bottom: 5px;
+
+                cursor: pointer;
+                :hover{
+                    cursor: pointer;
+                }
+            }
+        }
+        .historyin-order-ord-selected{
+
+            margin-left: 10px;
+            h3{
+                color: #550bcc;
+                font-family: Inter;
+                font-size: 15px;
+                margin-bottom: 5px;
+
+                cursor: pointer;
+                :hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .historyin-table{
+        display: grid;
+
+        margin-top: 10px;
+
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

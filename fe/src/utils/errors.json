@@ -1,0 +1,28 @@
+{
+    "username": {
+        "required": "Este campo é obrigatório",
+        "min": "O usuário deve ter mais de 3 caracteres",
+        "max": "O usuário deve ter menos de 25 caracteres",
+        "matches": "Somente letras e números são permitidos"
+    },
+    "password": {
+        "required": "Este campo é obrigatório",
+        "min": "A senha deve ter mais de 8 caracteres",
+        "max": "A senha deve ter menos de 5 caracteres",
+        "matches": "A senha deve conter uma letras maiúsculas, minúsculas e um número"
+    },
+    "passwordv": {
+        "required": "Este campo é obrigatório",
+        "oneOf": "Deve coincidir com o campo Senha"
+    },
+    "passwordT": {
+        "required": "Este campo é obrigatório"
+    },
+    "value": {
+        "required": "Este campo é obrigatório"
+    },
+    "usernameC": {
+        "required": "Este campo é obrigatório"
+    }
+
+}
