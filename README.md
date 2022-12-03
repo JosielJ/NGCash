@@ -93,4 +93,4 @@ docker-compose up --build -d
 docker container exec ngbeapi-docker npx prisma migrate deploy 
 ```
 <br>
-Agora basta abrir o [localhost:80](http://localhost:80) ou só [localhost](http://localhost) para abrir o site.
+Agora basta abrir o localhost:80 ou só localhost para abrir o site.
