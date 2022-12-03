@@ -45,7 +45,7 @@ Diagrama do banco de dados
 
   <h3>FrontEnd</h3>
 <p>O FrontEnd é feito em React.js com TypeScript. <br>
-O FrontEnd conta com bibliotecas e frameworks React como: <br> 
+Conta com bibliotecas e frameworks React como: <br> 
 - React routerdom para possibilitar a utilização de rotas no FrontEnd. <br>
 - Axios para fazer a comunicação com a API no BackEnd. <br>
 - React Hook Form para gerenciar formulários. <br>
@@ -57,14 +57,22 @@ O FrontEnd conta com bibliotecas e frameworks React como: <br>
 
   <h3>BackEnd</h3>
 <p>O BackEnd é feito em Node.js com TypeScript. <br>
-O BackEnd conta com bibliotecas e frameworks Node como: <br> 
+Conta com bibliotecas e frameworks Node como: <br> 
 - Prisma como ORM para mapear o banco de dados. <br>
-- Express para gerencias o servidor e rotas. <br>
-- Express async errors para lidar com erros assincronos. <br>
-- Cors para gerenciar e permitir requisiçoes do FrontEnd para o BackEnd. <br>
-- Bcryptjs para encriptar dados ao enviar para o servidor. <br>
-- Jsonwebtoken gerenciar tokens e veriricar a requisiçoes vindas do FrontEnd. <br>
+- Express para gerenciar o servidor e rotas. <br>
+- Express async errors para lidar com erros assíncronos. <br>
+- Cors para gerenciar e permitir requisições do FrontEnd para o BackEnd. <br>
+- Bcryptjs para encriptar dados ao enviar para o banco de dados. <br>
+- Jsonwebtoken gerenciar tokens e verificar a requisições vindas do FrontEnd. <br>
 </p>
+<br>
+
+  <h3>Banco de Dados</h3>
+<p>PostgreSQL para gerenciar de banco de dados.</p>
+<br>
+
+  <h3>DevOps</h3>
+<p>Docker e Docker Compose para criar os contêineres do FrontEnd, BackEnd e Bancos de Dados.</p>
 
 <div/>
 
