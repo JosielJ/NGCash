@@ -20,6 +20,7 @@ O Projeto roda um servidor em Node.js responsável por realizar a comunicação 
 
 
 Diagrama do banco de dados
+
 <img height="200cm" src="https://cdn.discordapp.com/attachments/987790937474351104/1048705790917218364/digram.png" alt="diagrama">
 
 </p>
