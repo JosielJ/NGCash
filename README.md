@@ -92,6 +92,5 @@ docker-compose up --build -d
 ```bash
 docker container exec ngbeapi-docker npx prisma migrate deploy 
 ```
-<p>Agora basta abrir o localhost:80 ou só localhost para abrir o site.</p>
-
-<p>[ver o código-fonte do projeto](https://github.com/JosielJ/Pokebank)</p>
+<br>
+Agora basta abrir o [localhost:80](http://localhost:80) ou só [localhost](http://localhost) para abrir o site.
