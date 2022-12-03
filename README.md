@@ -75,9 +75,6 @@ Conta com bibliotecas e frameworks Node como: <br>
 <p>Docker e Docker Compose para criar os contêineres do FrontEnd, BackEnd e Bancos de Dados.</p>
 
 <div/>
-
-  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
-
 ###
 
 ## Como executar
@@ -87,12 +84,14 @@ Conta com bibliotecas e frameworks Node como: <br>
 <p>Criar os containers no Docker</p>
 
 ```bash
-$ docker-compose up --build -d 
+docker-compose up --build -d 
 ```
 
 <p>Assim que os containers estiverem criados basta executar o seguinte comando para criar as tabelas no banco de dados</p>
 
 ```bash
-$ docker container exec ngbeapi-docker npx prisma migrate deploy 
+docker container exec ngbeapi-docker npx prisma migrate deploy 
 ```
 <p>Agora basta abrir o localhost:80 ou só localhost para abrir o site.</p>
+
+<p>[ver o código-fonte do projeto](https://github.com/JosielJ/Pokebank)</p>
