@@ -83,8 +83,10 @@ Conta com bibliotecas e frameworks Node como: <br>
 ## Como executar
 
 <p>Para executar o aplicativo você precisa ter instalado em sua máquina o Docker Desktop</p>
+<br>
+<br>
 
+<p>Criar o containers no Docker</p>
 ```bash
-Criar o containers no Docker
   $ docker-compose up --build -d 
 ```
