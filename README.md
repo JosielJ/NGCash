@@ -42,9 +42,9 @@ Diagrama do banco de dados
 ## Ferramentas utilizadas
 
 <div>
-  <h1>FrontEnd</h1>
+  <h2>FrontEnd</h2>
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
-  <h2>O FrontEnd é feito em React.js com TypeScript
+  <h3>O FrontEnd é feito em React.js com TypeScript</h3>
 
    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
 
