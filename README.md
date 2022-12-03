@@ -83,8 +83,6 @@ Conta com bibliotecas e frameworks Node como: <br>
 ## Como executar
 
 <p>Para executar o aplicativo você precisa ter instalado em sua máquina o Docker Desktop</p>
-<br>
-<br>
 
 <p>Criar os containers no Docker</p>
 
