@@ -46,11 +46,12 @@ Diagrama do banco de dados
 
 <p>O FrontEnd é feito em React.js com TypeScript, 
 O FrontEnd conta com bibliotecas React como: <br> 
-- React routerdom prara possibilitar a utlizaçao de rotas no FrontEnd.
-- Axios para fazer a comunicaçao com a API no BackEnd.
-- React Hook Form para gerenciar formularios.
-- Yup para fazer a validaçao dos formularios.
-- Framer-motion para fazer animaçoes.
+- React routerdom para possibilitar a utilização de rotas no FrontEnd. <br>
+- Axios para fazer a comunicação com a API no BackEnd. <br>
+- React Hook Form para gerenciar formulários. <br>
+- Yup para fazer a validação dos formulários. <br>
+- Framer-motion para fazer animações. <br>
+- React Three.js, React Three/drei e React Three/fiber para renderizar elementos 3d. <br>
 </p>
 
 <div/>
