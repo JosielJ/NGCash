@@ -43,15 +43,19 @@ Diagrama do banco de dados
 
 <div>
   <h3>FrontEnd</h3>
-  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
-  <p>O FrontEnd é feito em React.js com TypeScript</p>
 
-   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+<p>O FrontEnd é feito em React.js com TypeScript, 
+O FrontEnd conta com bibliotecas React como:
+- React routerdom prara possibilitar a utlizaçao de rotas no FrontEnd.
+- Axios para fazer a comunicaçao com a API no BackEnd.
+- React Hook Form para gerenciar formularios.
+- Yup para fazer a validaçao dos formularios.
+- Framer-motion para fazer animaçoes.
+</p>
 
-   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
-
-   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
 <div/>
+
+  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
 
 ###
 
