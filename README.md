@@ -45,7 +45,7 @@ Diagrama do banco de dados
   <h3>FrontEnd</h3>
 
 <p>O FrontEnd é feito em React.js com TypeScript, 
-O FrontEnd conta com bibliotecas React como:
+O FrontEnd conta com bibliotecas React como: <br> 
 - React routerdom prara possibilitar a utlizaçao de rotas no FrontEnd.
 - Axios para fazer a comunicaçao com a API no BackEnd.
 - React Hook Form para gerenciar formularios.
