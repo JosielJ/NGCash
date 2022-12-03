@@ -75,7 +75,6 @@ Conta com bibliotecas e frameworks Node como: <br>
 <p>Docker e Docker Compose para criar os contêineres do FrontEnd, BackEnd e Bancos de Dados.</p>
 
 <div/>
-###
 
 ## Como executar
 
