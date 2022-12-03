@@ -86,8 +86,15 @@ Conta com bibliotecas e frameworks Node como: <br>
 <br>
 <br>
 
-<p>Criar o containers no Docker</p>
+<p>Criar os containers no Docker</p>
 
 ```bash
-  $ docker-compose up --build -d 
+$ docker-compose up --build -d 
 ```
+
+<p>Assim que os containers estiverem criados basta executar o seguinte comando para criar as tabelas no banco de dados</p>
+
+```bash
+$ docker container exec ngbeapi-docker npx prisma migrate deploy 
+```
+<p>Agora basta abrir o localhost:80 ou só localhost para abrir o site.</p>
